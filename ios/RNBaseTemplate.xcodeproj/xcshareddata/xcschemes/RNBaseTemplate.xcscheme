@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "RNBaseTemplate.app"
-               BlueprintName = "RNBaseTemplate"
-               ReferencedContainer = "container:RNBaseTemplate.xcodeproj">
+               BuildableName = "{{placeholderName}}.app"
+               BlueprintName = "{{placeholderName}}"
+               ReferencedContainer = "container:{{placeholderName}}.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "RNBaseTemplateTests.xctest"
-               BlueprintName = "RNBaseTemplateTests"
-               ReferencedContainer = "container:RNBaseTemplate.xcodeproj">
+               BuildableName = "{{placeholderName}}Tests.xctest"
+               BlueprintName = "{{placeholderName}}Tests"
+               ReferencedContainer = "container:{{placeholderName}}.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RNBaseTemplate.app"
-            BlueprintName = "RNBaseTemplate"
-            ReferencedContainer = "container:RNBaseTemplate.xcodeproj">
+            BuildableName = "{{placeholderName}}.app"
+            BlueprintName = "{{placeholderName}}"
+            ReferencedContainer = "container:{{placeholderName}}.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RNBaseTemplate.app"
-            BlueprintName = "RNBaseTemplate"
-            ReferencedContainer = "container:RNBaseTemplate.xcodeproj">
+            BuildableName = "{{placeholderName}}.app"
+            BlueprintName = "{{placeholderName}}"
+            ReferencedContainer = "container:{{placeholderName}}.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

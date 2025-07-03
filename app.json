@@ -1,4 +1,4 @@
 {
-  "name": "RNBaseTemplate",
-  "displayName": "RNBaseTemplate"
+  "name": "{{placeholderName}}",
+  "displayName": "{{placeholderName}}"
 }

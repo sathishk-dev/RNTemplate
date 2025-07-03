@@ -1,5 +1,6 @@
 // template.config.js
 module.exports = {
-    placeholderName: "YourApp",
+    placeholderName: "RNBaseTemplate",
     templateDir: "./",
+    postInitScript: './post-init.js'
 };
