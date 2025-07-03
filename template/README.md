@@ -1,107 +1,97 @@
-# 🚀 React Native Starter Template
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-A modern, scalable, and reusable React Native template that includes all the essentials to kickstart your app development quickly and cleanly.
+# Getting Started
 
----
+> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
-## 📦 Features
+## Step 1: Start Metro
 
-✅ **Custom Components**
-- `StyledButton` – Reusable button with customizable colors, padding, radius
-- `CustomToast` – Custom styled toast (success & error) using `react-native-toast-message`
-- `Table` – Lightweight table view for array/object data, with pagination
-- `Dropdown` – Custom designed popup dropdown with search feature
+First, you will need to run **Metro**, the JavaScript build tool for React Native.
 
-✅ **Global Styling**
-- Centralized `theme.js` for colors, fonts, and spacing
-- Preloaded custom fonts (e.g., Axiforma, Inter)
+To start the Metro dev server, run the following command from the root of your React Native project:
 
-✅ **Navigation**
-- Stack and Bottom Tab Navigation preconfigured (`@react-navigation`)
-- Gesture handler and safe area context integrated
+```sh
+# Using npm
+npm start
 
-✅ **Utility Hooks**
-- `useExitAppHandler` – Android back button exit confirmation hook
-- `storage.js` – Reusable AsyncStorage utility for strings, numbers, objects, arrays
-
-✅ **Extras**
-- Splash + Home + Settings screen examples
-- Toast styling per theme
-- Easy to extend and scale
-
----
-
-## ⚙️ How to Use This Template
-
-You can use this template directly via the React Native CLI.
-
-### 📥 Install via `npx`:
-
-```bash
-npx @react-native-community/cli@latest init MyApp --template https://github.com/sathishk-dev/RNTemplate.git
+# OR using Yarn
+yarn start
 ```
 
-Replace `MyApp` with your desired project name.
+## Step 2: Build and run your app
 
----
+With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
 
-## 🛠️ After Installation
+### Android
 
-### 1. Install Dependencies
-
-```bash
-cd MyApp
-npm install
-npx react-native-asset
-```
-
-For iOS:
-```bash
-cd ios && pod install && cd ..
-```
-
-### 2. Run the App
-
-```bash
+```sh
+# Using npm
 npm run android
-# or
-npx react-native run-ios
+
+# OR using Yarn
+yarn android
 ```
 
----
+### iOS
 
-## 📁 Project Structure
+For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
 
-```
-MyApp/
-├── App.js
-├── components/
-│   ├── StyledButton.js
-│   ├── Table.js
-├── constants/
-│   └── theme.js
-├── hooks/
-│   └── useExitAppHandler.js
-├── navigation/
-│   ├── AppNavigator.js
-│   └── BottomTabNavigator.js
-├── screens/
-│   ├── SplashScreen.js
-│   ├── HomeScreen.js
-│   └── SettingsScreen.js
-├── utils/
-│   └── storage.js
-│   └── toastConfig.js
-├── assets/
-│   └── fonts/
-│       └── Inter-Medium.ttf
+The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+
+```sh
+bundle install
 ```
 
----
+Then, and every time you update your native dependencies, run:
 
-## 🙌 Credits
+```sh
+bundle exec pod install
+```
 
-Built with ❤️ by Sathish Kumar.  
-This template is ready to plug and play for your next big app idea.
+For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
 
----
+```sh
+# Using npm
+npm run ios
+
+# OR using Yarn
+yarn ios
+```
+
+If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+
+This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+
+## Step 3: Modify your app
+
+Now that you have successfully run the app, let's make changes!
+
+Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+
+When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+
+- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
+- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+
+## Congratulations! :tada:
+
+You've successfully run and modified your React Native App. :partying_face:
+
+### Now what?
+
+- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+
+# Troubleshooting
+
+If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+
+# Learn More
+
+To learn more about React Native, take a look at the following resources:
+
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
