@@ -1,7 +1,7 @@
 // template.config.js
 module.exports = {
     placeholderName: "RNBaseTemplate",
-    titlePlaceholder: 'My React Native App',
+    titlePlaceholder: 'React Native Boilerplate',
     templateDir: "./template",
-    postInitScript: './post-init.js'
+    postInitScript: './post-init.script.js'
 };
